@@ -25,7 +25,17 @@ cd code
 python tablas.py
 ```
 
-El script imprime las tres tablas y compara cada celda con el valor publicado. Solo usa la biblioteca estándar de Python.
+El script imprime las tres tablas y compara cada celda con el valor publicado. Solo usa la biblioteca estándar de Python, así que no necesita el entorno de conda. Si todo está bien, termina así:
+
+```
+Tabla 3
+                       Bayes ingenuo     SVM lineal       fastText           BERT
+PROMISE + PROMISE_exp           0.48           0.48           0.42    0.53 ± 0.02
+PROMISE                         0.36           0.40           0.42    0.57 ± 0.06
+PROMISE_exp                     0.44           0.45           0.50    0.49 ± 0.02
+
+Las 65 celdas coinciden con el artículo.
+```
 
 ## Estructura
 
@@ -57,7 +67,27 @@ conda env create -f code/environment.yml
 conda activate crossreq
 ```
 
-Los experimentos se ejecutaron en macOS con Apple M4 Pro y 24 GB de memoria; BERT se ajustó sobre el acelerador MPS. Los vectores `fasttext-wiki-news-subwords-300` (cerca de 1 GB) se descargan automáticamente con gensim la primera vez, y `bert-base-cased` se descarga desde Hugging Face.
+Los experimentos se ejecutaron en macOS con Apple M4 Pro y 24 GB de memoria; BERT se ajustó sobre el acelerador MPS y, si no está disponible, los scripts usan la CPU. Los vectores `fasttext-wiki-news-subwords-300` (cerca de 1 GB) se descargan automáticamente con gensim la primera vez, y `bert-base-cased` se descarga desde Hugging Face.
+
+Los notebooks se pueden abrir con `jupyter lab` o ejecutar completos desde la terminal, dentro de su carpeta:
+
+```
+cd code/nivel1
+jupyter nbconvert --to notebook --execute --inplace nivel1_clasicos.ipynb
+```
+
+## Configuración de los modelos
+
+Los cuatro modelos usan la misma configuración en los tres niveles. Los hiperparámetros que no se mencionan conservan los valores por omisión de cada biblioteca.
+
+| Modelo | Configuración |
+|---|---|
+| Bayes ingenuo | TF-IDF con uno y dos gramas, frecuencia mínima de documento 2 y ponderación sublineal; `MultinomialNB` con α = 1 |
+| SVM lineal | El mismo TF-IDF; `LinearSVC` con C = 1, pérdida *squared hinge* y regularización L2 |
+| fastText | Promedio de los vectores `fasttext-wiki-news-subwords-300` de las palabras del requisito, estandarizado; regresión logística con L2, C = 1 y hasta 2000 iteraciones |
+| BERT | `bert-base-cased` con la configuración de NoRBERT: 16 épocas, tasa de aprendizaje 2e-5, lote 16, longitud máxima 128, AdamW con calentamiento lineal del 10 % |
+
+Particiones: en el modo con fuga, `StratifiedKFold` con 10 particiones, barajado y semilla 42, la misma para los cuatro modelos; en el modo sin fuga, `LeaveOneGroupOut` por proyecto. BERT se entrena con las semillas 13, 42, 77, 101 y 2026, y se reportan su media y su desviación estándar.
 
 ## Orden de ejecución
 
@@ -75,9 +105,21 @@ Cada paso lee lo que produjo el anterior. Todos los scripts y notebooks se ejecu
 
 Los pasos 2 y 3 no hace falta repetirlos: dependen de las respuestas de los anotadores y de la adjudicación, que se incluyen. Correrlos regenera los mismos archivos.
 
-Los notebooks de los clásicos reutilizan las predicciones guardadas si existen; para recalcularlas basta con borrar los archivos `*_predicciones_clasicos.csv`. Los modelos clásicos son deterministas. BERT suma 665 entrenamientos (cinco semillas: 13, 42, 77, 101 y 2026) y tarda varias horas; sus scripts se pueden interrumpir y reanudar.
+Los notebooks de los clásicos reutilizan las predicciones guardadas si existen; para recalcularlas basta con borrar los archivos `*_predicciones_clasicos.csv`. Los modelos clásicos son deterministas: al recalcularlos desde cero se obtienen las mismas predicciones que las incluidas, byte por byte. En la máquina descrita, cada notebook de clásicos tarda menos de dos minutos (entre 102 y 106 segundos), sin contar la primera descarga de los vectores de fastText.
+
+BERT suma 665 entrenamientos y tarda varias horas; sus scripts se pueden interrumpir y reanudar. Por eso se incluyen sus predicciones. Al reentrenarlo en otro equipo o con otro acelerador, las predicciones pueden no coincidir exactamente, aunque la media y la desviación entre semillas deberían quedar cerca de las reportadas.
 
 Las métricas de los notebooks de nivel se calculan sobre todas las predicciones de cada condición. Las Tablas 2 y 3 del artículo reportan, en cambio, la media del F1 macro por proyecto y por documento; ambas las calcula `tablas.py`.
+
+## De dónde sale cada cifra del artículo
+
+| Cifras | Archivo |
+|---|---|
+| PROMISE con 625 requisitos (255 F y 370 NFR, 15 proyectos); 621 duplicados entre PROMISE y PROMISE_exp; 348 requisitos nuevos de PROMISE_exp (191 F y 157 NFR, 34 proyectos); 958 requisitos de PURE en 6 documentos | `code/fase0_prepare_corpora.ipynb` |
+| Muestra de 300 requisitos de PURE, por documento | `code/fase4_muestra_anotacion.py` |
+| Kappa de Cohen de 0.590 (decisión de requisito) y 0.385 (clase); 205 acuerdos y 95 desacuerdos; 198 requisitos por acuerdo, 67 por adjudicación y 28 descartados; 265 requisitos confirmados (166 F y 99 NFR) | `code/fase4_acuerdo.ipynb` |
+| Tablas 1, 2 y 3 | `code/tablas.py` |
+| 665 entrenamientos de BERT: 150 con fuga, 490 sin fuga, 10 en los cruces y 15 en el nivel 3 | `code/nivel*/nivel*_bert.py` y la columna `semilla` de sus predicciones |
 
 ## Datos
 
@@ -96,6 +138,23 @@ Estos archivos se redistribuyen sin modificaciones, con fines de reproducibilida
 - `harmonized/corpus_all.csv`: 1931 requisitos. PROMISE (625: 255 F y 370 NFR, 15 proyectos), los 348 requisitos de PROMISE_exp que no están en PROMISE (191 F y 157 NFR, 34 proyectos) y 958 requisitos de PURE sin etiqueta.
 - `anotacion/`: la muestra PURE-300, las respuestas de los dos anotadores, la adjudicación de los 95 desacuerdos con su justificación, el manual que recibieron los anotadores y el estándar `gold_pure300.csv` (300 textos, 265 confirmados como requisitos: 166 F y 99 NFR).
 - `nivel1/`, `nivel2/`, `nivel3/`: las predicciones de cada modelo (con su iteración, proyecto o documento y semilla) y las métricas.
+
+### Columnas de los archivos
+
+| Archivo | Columnas |
+|---|---|
+| `harmonized/corpus_all.csv` | `corpus` (PROMISE, PROMISE_exp_new o PURE), `group` (proyecto o documento), `req_id`, `text`, `label_binary` (F o NFR; vacío en PURE), `label_original` (subclase de PROMISE) |
+| `anotacion/muestra_300_master.csv` | `item`, `req_id`, `documento`, `texto` |
+| `anotacion/entregas/anotador_{1,2}.csv` | `item`, `texto`, `es_requisito (si/no)`, `etiqueta (F o NFR)`, `duda (si/no)`, `comentario (opcional)` |
+| `anotacion/adjudicacion.csv` | las respuestas de los dos anotadores (`a1_*`, `a2_*`), `etiqueta_final`, `es_requisito_final` y `justificacion` de los 95 desacuerdos |
+| `anotacion/gold_pure300.csv` | `item`, `req_id`, `documento`, `texto`, `etiqueta`, `es_requisito`, `origen` (acuerdo o adjudicación) |
+| `nivel1/`, `nivel2/`: `*_predicciones_clasicos.csv` | `req_id`, `modelo`, `etiqueta`, `prediccion`, `iteracion`, `proyecto` |
+| `nivel1/`, `nivel2/`: `*_predicciones_bert.csv` | `req_id`, `etiqueta`, `prediccion`, `iteracion`, `proyecto`, `semilla` |
+| `nivel3/`: `*_predicciones_clasicos.csv` | `req_id`, `documento`, `modelo`, `prediccion`, `etiqueta_gold`, `es_requisito` |
+| `nivel3/`: `*_predicciones_bert.csv` | las mismas, más `semilla` |
+| `nivel*/nivel*_metricas.csv` | una fila por modelo y condición, con las métricas de la matriz de confusión (exactitud, precisión, sensibilidad, F1 por clase, F1 macro, MCC) y, en BERT, la desviación entre semillas |
+
+En `iteracion`, el modo con fuga indica la partición (de 0 a 9) y el modo sin fuga el número de iteración, cuyo proyecto evaluado aparece en `proyecto`; los cruces usan 0. Las predicciones del nivel 3 no tienen esa columna, porque se entrena una sola vez. Los `req_id` empiezan con `A-` en PROMISE, `B-` en PROMISE_exp y `D-` en PURE.
 
 ## Licencia
 
