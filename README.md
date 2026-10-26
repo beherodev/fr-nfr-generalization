@@ -10,6 +10,10 @@ El estudio evalúa cuatro clasificadores de requisitos funcionales (F) y no func
 2. **Nivel 2**: entre corpus (PROMISE y PROMISE_exp).
 3. **Nivel 3**: hacia documentos industriales (PURE-300).
 
+![Protocolo de evaluación en tres niveles](docs/protocolo.png)
+
+*Protocolo de evaluación. Cada nivel aleja el conjunto de prueba del de entrenamiento.*
+
 Los clasificadores son Bayes ingenuo y SVM lineal sobre TF-IDF, regresión logística sobre vectores fastText, y BERT con la configuración de NoRBERT.
 
 ## Comprobación rápida
@@ -35,6 +39,8 @@ code/
   nivel3/                        nivel 3: transferencia hacia PURE-300
   tablas.py                      Tablas 1, 2 y 3 del artículo
   environment.yml                entorno de conda con las versiones usadas
+docs/
+  protocolo.png                  figura del protocolo de evaluación
 datasets/
   norbert-replication/.../promise_nfr.csv   PROMISE (fuente original)
   promise_exp.csv                           PROMISE_exp (fuente original)
