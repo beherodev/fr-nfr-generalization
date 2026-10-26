@@ -1,0 +1,301 @@
+item,req_id,documento,texto
+1,D-2007-eirene_-0201,2007-eirene_fun_7-2,"When the handset is picked up, the loudspeaker shall continue to operate, but at a reduced volume level."
+2,D-2007-eirene_-0163,2007-eirene_fun_7-2,"Reception of this call proceeds as for a standard group or broadcast call, except that a distinctive audible and visual indication shall be provided in the cab."
+3,D-2007-eirene_-0537,2007-eirene_fun_7-2,"If the radio moves out of the area whilst the emergency call is in progress, an audible and visual indication of the loss of the call shall be provided to the user."
+4,D-2008_-_keepa-0027,2008 - keepass,There is no backdoor or key that unlocks all databases
+5,D-2007-ertms-0033,2007-ertms,The driver shall be able to consult train data when the train is stationary or moving. M
+6,D-2007-ertms-0143,2007-ertms,The override control shall be protected against inadvertent operation. M
+7,D-2007-ertms-0142,2007-ertms,The driver shall select an override control according to the permission received. M
+8,D-2007-ertms-0052,2007-ertms,"It shall be possible to apply the train trip function, if the shunting movement passes a signal showing ""danger for shunting"". M"
+9,D-2007-eirene_-0060,2007-eirene_fun_7-2,"(Network selection requirements for mobiles have been moved to sections 5, 6 and 7)."
+10,D-2007-eirene_-0334,2007-eirene_fun_7-2,Facilities should be provided to adjust the loudspeaker volume.
+11,D-2007-eirene_-0158,2007-eirene_fun_7-2,"If the call is a group call, the driver shall be required to request permission before being able to speak as part of the call by lifting the handset and pushing the Push-To- Talk (PTT) button."
+12,D-2007-eirene_-0148,2007-eirene_fun_7-2,"The Cab radio shall be capable of being used as a standard telephone, such that the driver is able to call any valid number subject to pre-defined call restrictions. The call may be initiated by: selection from a pre-defined list (up to 99 entries); direct dialling a subscriber number; calling a functional number. Receive incoming point-to-point voice call"
+13,D-2007-eirene_-0294,2007-eirene_fun_7-2,The facility for a given General purpose radio to send a Railway emergency call (see section 13) shall be determined as a management function.
+14,D-2007-ertms-0189,2007-ertms,The driver shall be able to use the Reversing function without needing to re-confirm the train data. M
+15,D-2007-ertms-0080,2007-ertms,The trackside shall be able to send information for the calculation of speed profiles. M
+16,D-2007-eirene_-0319,2007-eirene_fun_7-2,It shall be possible to register and deregister a functional number in the following way: Initiated by the user and transmitted to the ground: user enters functional number which is transmitted to the network.
+17,D-2007-eirene_-0478,2007-eirene_fun_7-2,"In the case of Cab radio, when a train number is assigned as a functional identity, this shall take priority over other Cab radio functional identities, and shall be the functional identity for the Cab radio to be displayed to other users."
+18,D-2007-eirene_-0444,2007-eirene_fun_7-2,"In order to provide interoperability, priorities shall be allocated consistently across all EIRENE networks, as shown in the following table. UIC Priority Automatic Pre-emption answering* (of) Railway emergency Y Control-command (safety) and below Control-command (safety) Y Public emergency, group calls between drivers in the same area and below Public emergency and group calls Y Railway operation, between drivers in the same area Control-command information and below Railway operation Y ** Railway information (eg calls from or for drivers and and below controllers) and Control-command information Railway information and all other N - calls * Automatic call answering applies only to voice calls ** Mandatory for Cab radio, optional for other user equipment Table 10-1: Allocation of priorities"
+19,D-2007-eirene_-0565,2007-eirene_fun_7-2,"If a user, other than the shunting leader, attempts to make another call whilst being an active member of a shunting group, the attempt shall be ignored."
+20,D-2007-ertms-0117,2007-ertms,"The driver shall have the possibility to select the language, this does not concern non pre-defined texts sent from the trackside. M"
+21,D-2007-eirene_-0522,2007-eirene_fun_7-2,A Railway emergency call may be defined in three distinct phases. These are: Stage 1: Warning; Stage 2: Information; Stage 3: Terminate Railway emergency call.
+22,D-2007-ertms-0018,2007-ertms,"If an ETCS equipped train passes a level transition to a line fitted with more than one level, the onboard shall switch to the highest level, according to the priority given by trackside, for which it is equipped. M"
+23,D-2007-eirene_-0501,2007-eirene_fun_7-2,"As a minimum, the location information used by the EIRENE system shall be derived from that available from the network itself (eg current cell or base station serving the mobile)."
+24,D-2007-eirene_-0449,2007-eirene_fun_7-2,A mobile may be a member of a number of groups. It shall be possible to activate or deactivate the mobiles subscription to these groups.
+25,D-2008_-_keepa-0017,2008 - keepass,"REQ-18: An internet connection and a browser are required in order to download new language translations For the following features, use cases are not included"
+26,D-2008_-_peeri-0022,2008 - peering,Policies identifying the consequences of SLA violation are defined.
+27,D-2007-eirene_-0535,2007-eirene_fun_7-2,The information shall be received by the same set of users who received the warning tone.
+28,D-2008_-_peeri-0005,2008 - peering,There is an established norm that any resource failure will be reported
+29,D-2007-eirene_-0156,2007-eirene_fun_7-2,The driver shall be informed if a broadcast call is ongoing by a visual indication displayed on the MMI.
+30,D-0000_-_gamma-0013,0000 - gamma j,The system shall be able to retrieve 200 products per second.
+31,D-0000_-_cctns-0019,0000 - cctns,The System must allow only admin-users to set up user profiles and allocate users to groups.
+32,D-2007-eirene_-0010,2007-eirene_fun_7-2,The composition of call groups shall be able to be modified within the network. A single user shall be able to be a member of one or more call groups.
+33,D-0000_-_cctns-0016,0000 - cctns,The System must allow the user to limit access to cases to specified users or user groups.
+34,D-2008_-_keepa-0022,2008 - keepass,"In case a space is found in the path, it must be enclosed into quotes"
+35,D-0000_-_cctns-0071,0000 - cctns,"Observing principles of human perception When designing application pages, the general principles of human perception should be taken into account. The International Standards mentioned below shall be consulted for guidance. Practical guidelines for presenting information to the user are to be found in ISO 9241-12. Guidance on selecting and using different forms of interaction techniques is to be found in ISO 9241-14 to ISO 9241-17. ISO 9241-14 gives guidance about menus, ISO 9241-15 about command dialogues, ISO 9241-16 about direct manipulation and ISO 9241-17 about forms. In addition, when designing multimedia information presentations, the design principles and recommendations described in ISO 14915-1 to ISO 14915-3 should be taken into account. Appropriate content presentation also plays a key role in accessibility."
+36,D-2007-eirene_-0152,2007-eirene_fun_7-2,"Once the driver has accepted the standard point-to-point call, it shall be connected appropriately, eg if the driver has accepted the call by lifting the handset, then the call shall be routed to the handset. Receive incoming group or broadcast voice call"
+37,D-2007-eirene_-0171,2007-eirene_fun_7-2,A means to enter and leave shunting mode shall be provided.
+38,D-2007-eirene_-0258,2007-eirene_fun_7-2,"Ease of maintenance should be taken into account in the design and installation of radio equipment. For example, maintenance access to antennas on vehicles should be provided. Electrical"
+39,D-2008_-_peeri-0013,2008 - peering,Mediator works in conjunction with the PA to establish negotiation.
+40,D-0000_-_cctns-0066,0000 - cctns,"Using colour: Colour should be used with care, taking into account human capabilities and restrictions in perceiving colour, and not as the only means of conveying information. Color should never be the only means of coding. Some users may have difficulties in perceiving certain colors or color combinations (color-blindness)."
+41,D-2007-ertms-0106,2007-ertms,If the release speed is calculated on board it shall ensure that the train will stop before reaching the danger point M
+42,D-2008_-_keepa-0009,2008 - keepass,A name is required in order for the group/subgroup to be renamed
+43,D-2008_-_keepa-0018,2008 - keepass,The prefix “Auto-Type:” is required in front of each sequence
+44,D-2007-ertms-0057,2007-ertms,Partial Supervision shall be indicated on the DMI. M
+45,D-2008_-_peeri-0012,2008 - peering,"Mediator-SR, mediator-PR, mediator-PA interaction protocols are defined."
+46,D-2007-eirene_-0335,2007-eirene_fun_7-2,A Push-To-Talk function shall be provided. The Push-To-Talk function does not need to be a dedicated button.
+47,D-2007-eirene_-0134,2007-eirene_fun_7-2,"Whilst on-going, a multi-drivers indication shall be displayed permanently at all Cab radios."
+48,D-2007-eirene_-0470,2007-eirene_fun_7-2,"11.2.1.10It shall be possible to call EIRENE users by functional numbers from a wide range of terminals (EIRENE and non-EIRENE). Examples include EIRENE mobiles, controller terminals, railway fixed network telephones and public telephones. (All such calls will be subject to any access restrictions see section 10.3.)"
+49,D-0000_-_gamma-0039,0000 - gamma j,The system shall utilize interchangeable plugins.
+50,D-0000_-_cctns-0059,0000 - cctns,"Using familiar terminology for navigation links: Navigation links — particularly links representing the main navigation structure — should be labelled with terms that are familiar to the user, based on his/her general knowledge, prior experience in the application domain or experience of using other systems."
+51,D-2008_-_keepa-0004,2008 - keepass,Databases must have different names or else the previews one will be replace if selected
+52,D-2007-ertms-0183,2007-ertms,It shall be possible to revoke a Movement Authority that has already been issued to a train in a co-operative way between RBC and train. M
+53,D-0000_-_cctns-0050,0000 - cctns,"Providing clear error messages: The content of error messages shown on the pages or special error pages should clearly state the reason why the error occurred and, if possible, actions the user can take to resolve the error. Users expect error messages to be in the same language as the user interface."
+54,D-2007-ertms-0146,2007-ertms,A special indication shall be shown on the DMI. M
+55,D-2007-eirene_-0464,2007-eirene_fun_7-2,It shall be possible to assign up to a minimum of 3 functional numbers to an EIRENE user at any one time.
+56,D-2008_-_peeri-0023,2008 - peering,Policies are in place to perform renegotiation for problem resolution.
+57,D-2008_-_keepa-0026,2008 - keepass,"In case of lost master password or key file, the database never unlocks again. There is no recovery"
+58,D-2007-ertms-0006,2007-ertms,It shall be possible to implement one or more of the ETCS application levels on a line. O
+59,D-2007-eirene_-0513,2007-eirene_fun_7-2,This section covers the use of the EIRENE radio system for Railway emergency calls. This section also describes the facility for confirmation of such emergency calls and storage of confirmation for post-incident analysis.
+60,D-2007-eirene_-0425,2007-eirene_fun_7-2,Each mobile shall be identified by a unique telephone number.
+61,D-0000_-_gamma-0030,0000 - gamma j,The system shall automatically compress image files that are too large in size.
+62,D-2007-eirene_-0341,2007-eirene_fun_7-2,A visual indication shall be provided to the user if the network service is no longer available.
+63,D-2008_-_peeri-0011,2008 - peering,The format of service requirements is defined.
+64,D-0000_-_cctns-0045,0000 - cctns,Vertical scrolling should be minimized. This may be done by placing important information at the top and providing links to information that is further down the page. Horizontal scrolling should be avoided wherever possible.
+65,D-2007-eirene_-0032,2007-eirene_fun_7-2,"Where ERTMS/ETCS level 2 or 3 is implemented, the network shall be capable of supporting data communications for that train control system."
+66,D-2008_-_keepa-0031,2008 - keepass,"Title, username or URL cannot be changed in a TAN entry."
+67,D-0000_-_gamma-0022,0000 - gamma j,The system shall encrypt all sensitive information via https.
+68,D-2008_-_peeri-0021,2008 - peering,Effective content delivery is ensured through SLA satisfaction.
+69,D-2007-eirene_-0027,2007-eirene_fun_7-2,The network shall support data rates of at least 2.4 kbit/s.
+70,D-0000_-_gamma-0017,0000 - gamma j,The system shall be able to validate credit card in less than 2 seconds.
+71,D-2007-eirene_-0129,2007-eirene_fun_7-2,"If the train moves out of the call area whilst the call is in progress, it will leave the call and an audible and visual indication of the loss of call shall be provided to the driver."
+72,D-2007-eirene_-0551,2007-eirene_fun_7-2,The shunting call shall be a group call and shall have Railway operation priority (see section 10.2).
+73,D-0000_-_cctns-0006,0000 - cctns,"The solution should enable the help-desk user to view the reports on the submitted defects or enhancement requests category-wise, status-wise, and age- wise."
+74,D-2007-ertms-0126,2007-ertms,"When the traction unit has come to a standstill, the driver shall be able to release the emergency brake. M"
+75,D-2007-eirene_-0197,2007-eirene_fun_7-2,The languages to be supported will be a matter for each national railway to decide.
+76,D-2007-eirene_-0318,2007-eirene_fun_7-2,6.2.3.9i It shall be possible for a user to override the automatic network selection manually. This function shall not be available during calls. Register and deregister functional number
+77,D-2007-eirene_-0405,2007-eirene_fun_7-2,The emergency button shall be designed to avoid accidental use.
+78,D-2007-ertms-0157,2007-ertms,After overriding this function the movement authority shall be re-established. M
+79,D-2007-eirene_-0264,2007-eirene_fun_7-2,All call related functions shall be possible with the handset on or off the hook.
+80,D-2007-ertms-0170,2007-ertms,The ETCS on-board shall be capable of receiving information regarding air tightness from the trackside. M
+81,D-2007-eirene_-0001,2007-eirene_fun_7-2,The network services necessary to meet the range of UIC requirements are detailed below. These services are to be considered as a minimum set for implementation within each UIC standard network. Railways may implement additional network services as desired.
+82,D-0000_-_cctns-0056,0000 - cctns,Readability of text: Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement. ISO 9241-303 shall be consulted for screen text legibility requirements.
+83,D-2007-eirene_-0086,2007-eirene_fun_7-2,"This sub-section defines the core environmental and physical requirements for all EIRENE mobile equipment. The requirements provided in this section are augmented by those provided in later sections for each individual radio type, with each radio type being specified by the superset of the core plus specific requirements."
+84,D-2008_-_peeri-0014,2008 - peering,Interaction protocols between PAs are identified.
+85,D-2007-eirene_-0423,2007-eirene_fun_7-2,This section addresses the following: numbering plan requirements; standardised telephone numbers; group numbers; calls from external networks to the EIRENE network.
+86,D-0000_-_cctns-0112,0000 - cctns,The system should support selective encryption of the stored data
+87,D-2007-eirene_-0575,2007-eirene_fun_7-2,"This means will consist of an additional safety device (external to the radio system) interposed between the Cab radio and the loudspeaker with the purpose of muting the continuous link assurance signal for the drivers convenience. In this case, the safety device will alert the driver only if the link assurance signal has failed or if it is cancelled."
+88,D-0000_-_gamma-0050,0000 - gamma j,Yoggie shall coordinate on future enhancement and features with our organization.
+89,D-2008_-_keepa-0007,2008 - keepass,A name is required in order for the new group/subgroup to be created
+90,D-2007-eirene_-0084,2007-eirene_fun_7-2,The following call related services are to be supported for each type of mobile radio: Cab radio General purpose Operational radio radio Display of calling user identity M M M Display of called user identity M M M Restriction of display of user identity O O O EIRENE closed user group M O M Call forwarding: - unconditional M O O - if user busy O O O - if no reply O O O - if not reachable O O O Call hold M O O Call waiting M M M Display of call charging information O O O Call barring M O M Auto answer service M O M Call supervisory information M O O Table 4-3: Call related features to be supported
+91,D-2007-ertms-0166,2007-ertms,"On demand, the position of the front end of the train at the time of the demand shall be indicated on the DMI. This shall be possible while the train is moving or stationary. M"
+92,D-2007-eirene_-0560,2007-eirene_fun_7-2,"The link assurance signal shall be used to provide an audible indication to all group members. For the driver, this indicates that the radio link is operational."
+93,D-0000_-_gamma-0043,0000 - gamma j,The system shall be extremely portable via the usb drive.
+94,D-2007-ertms-0022,2007-ertms,National values shall be applicable to a defined area M
+95,D-2007-eirene_-0429,2007-eirene_fun_7-2,Every on-engine/coach function shall be identified by a unique standard number.
+96,D-2008_-_keepa-0023,2008 - keepass,"If a master password is required to unlock the database, the database doesn’t open unless the password is entered"
+97,D-0000_-_cctns-0033,0000 - cctns,Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions (e.g. mouse clicks).
+98,D-2007-ertms-0064,2007-ertms,It shall be possible for the trackside to ask a driver for confirmation about the occupancy of the track ahead before sending a Full Supervision movement authority. M
+99,D-0000_-_cctns-0073,0000 - cctns,Providing a site map: A separate navigation overview such as a site map should be provided for application showing the structure of the site in an overview form.
+100,D-0000_-_gamma-0012,0000 - gamma j,The system shall be able to handle 1000 customers logged in concurrently at the same time.
+101,D-2008_-_keepa-0011,2008 - keepass,An entry must belong to a group to be created
+102,D-2007-eirene_-0082,2007-eirene_fun_7-2,"The following voice telephony services, identified in section 2, are to be supported for each type of mobile radio: Cab radio General purpose Operational radio radio Point-to-point voice calls M M M Public emergency voice calls M M M Broadcast voice calls M M M Group voice calls M M M Multi-party voice calls M O O Table 4-1: Voice telephony services to be supported"
+103,D-2007-ertms-0123,2007-ertms,To protect a traction unit from roll away and unwanted reverse movements the trainborne equipment shall monitor the direction of movement in relation to the permitted direction. M
+104,D-2007-ertms-0002,2007-ertms,ETCS shall be able to supervise train and shunting movements. M
+105,D-2007-ertms-0055,2007-ertms,"Partial Supervision shall be selected either by the Driver, or by information received from track-to-train transmission. M"
+106,D-2008_-_peeri-0008,2008 - peering,Web servers have already replicated necessary content.
+107,D-2007-eirene_-0509,2007-eirene_fun_7-2,The maximum length of a message segment shall be 96 characters. A message can include several segments.
+108,D-2007-eirene_-0340,2007-eirene_fun_7-2,A network service availability indication shall be provided to the user.
+109,D-0000_-_gamma-0007,0000 - gamma j,Shall install online help for users via the web interface
+110,D-0000_-_gamma-0036,0000 - gamma j,The system shall employ easy to locate buttons
+111,D-2007-ertms-0058,2007-ertms,In Partial Supervision the train shall be supervised according to train speed and distance data available. M
+112,D-2007-ertms-0194,2007-ertms,If the train is equipped with two operational radios there shall be no performance penalty as a result of a transition from one RBC to another (train spacing and train speed). M
+113,D-0000_-_cctns-0037,0000 - cctns,ICT accessibility: ISO 9241-20 shall be the standard for guidance on ICT accessibility. Application user interfaces to meet its requirements and recommendations. Software accessibility ISO 9241-171 shall be the standard for guidance on software accessibility. User interfaces should meet its requirements and recommendations. Content accessibility WCAG 1.0 shall be the standard used for guidance on content accessibility. The application logo to be available on all pages as a link to the home page.
+114,D-2007-eirene_-0480,2007-eirene_fun_7-2,Three procedures can be identified for managing the relationship between the functional number and the telephone number by the mobile user as defined below.
+115,D-0000_-_gamma-0041,0000 - gamma j,"The system shall create logs of all changes, updates, or fixes that are done to the site."
+116,D-0000_-_cctns-0079,0000 - cctns,"Making user profiles evident: If predefined user profiles or user-specified profiles are used for individualizing or adapting content, the profile currently used should be made evident. If profiles are used, it is important to provide users with information about this concept and its implications."
+117,D-2008_-_keepa-0016,2008 - keepass,An entry must be selected before it is duplicated
+118,D-2008_-_peeri-0003,2008 - peering,"The interaction protocol between Web Server-SR, SR-mediator is defined."
+119,D-0000_-_cctns-0077,0000 - cctns,"Taking account of the users’ tasks and information needs: When providing different access paths or navigation structures for different user groups, the tasks and information needs of these user groups should be taken into consideration."
+120,D-0000_-_cctns-0096,0000 - cctns,The system should be implemented using Service Oriented Architecture (SOA) and have a modular design
+121,D-0000_-_cctns-0097,0000 - cctns,The system should be developed on Open Standards
+122,D-2007-eirene_-0572,2007-eirene_fun_7-2,The link assurance signal is a means to provide end-to-end confirmation between users that a voice communication link remains intact. This facility is required principally for the safe conduct of pushing manoeuvres to assure continuing availability of the radio channel while a shunting worker is guiding a train driver.
+123,D-2007-eirene_-0447,2007-eirene_fun_7-2,Various types of call restriction may be employed by the railways as an additional security measure. Such facilities may be particularly important if public network access to the radio system is provided (eg to prevent members of the public calling drivers and drivers calling members of the public).
+124,D-2007-eirene_-0232,2007-eirene_fun_7-2,It shall be possible to register and deregister a stock number in one or both of the following ways: automatically using information from on-board systems; automatically via a fixed interface between the locomotive/coach and the radio. Store/retrieve numbers and their details
+125,D-2007-eirene_-0493,2007-eirene_fun_7-2,"To allow roaming between EIRENE networks, the system shall support a procedure for the re-registration of functional numbers after selection of a new network."
+126,D-0000_-_gamma-0028,0000 - gamma j,The system shall perform searches via Dijkstra's shortest path algorithm.
+127,D-2007-eirene_-0173,2007-eirene_fun_7-2,The link assurance tone shall be provided via the loudspeaker.
+128,D-2007-eirene_-0062,2007-eirene_fun_7-2,"Network interconnection is subject to a bilateral agreement between network operators. The interconnection between the networks must, as a minimum, be compliant with applicable open specifications."
+129,D-2007-eirene_-0281,2007-eirene_fun_7-2,"5.7.1i If such an interface is implemented, it shall be capable of being connected to a device complying with UIC fiche 641 concerning automatic vigilance devices used in international traffic."
+130,D-2007-ertms-0072,2007-ertms,Unfitted operation shall be possible if ordered by trackside M
+131,D-0000_-_gamma-0033,0000 - gamma j,The system shall be easy to use
+132,D-2007-eirene_-0427,2007-eirene_fun_7-2,Every on-train function shall be identified by a unique standard number.
+133,D-2007-eirene_-0282,2007-eirene_fun_7-2,The activation of the driver safety device shall automatically trigger the Cab radio to send a data message.
+134,D-0000_-_gamma-0003,0000 - gamma j,The system shall use SQL based database to store inventory information.
+135,D-2007-eirene_-0002,2007-eirene_fun_7-2,This section describes the generic voice telephony services which are to be supported by the EIRENE network: point-to-point voice calls; public emergency voice calls; broadcast voice calls; group voice calls; multi-party voice calls.
+136,D-0000_-_gamma-0024,0000 - gamma j,The system shall auto detect IP DOS attacks and block IP automatically.
+137,D-0000_-_gamma-0037,0000 - gamma j,The system shall prompt customer with friend easy to read error messages.
+138,D-2007-ertms-0059,2007-ertms,The train shall have the capability of being supervised to a ceiling speed. M
+139,D-2007-ertms-0184,2007-ertms,"The co-operative revocation of the MA shall be possible to a new target location, proposed from RBC. M"
+140,D-2008_-_keepa-0014,2008 - keepass,ìAn entry must be selected to be viewed or modified
+141,D-0000_-_gamma-0035,0000 - gamma j,"The system shall utilize help bubbles to assist managers, customers, and administrators"
+142,D-0000_-_gamma-0019,0000 - gamma j,The system shall be able to restore 1000 records per second.
+143,D-2008_-_keepa-0032,2008 - keepass,"When a TAN is used, it expires automatically and can never be used again."
+144,D-2007-ertms-0137,2007-ertms,It shall be possible to use tandem traction units without isolating the ETCS trainborne equipment on the tandem traction unit. M
+145,D-2008_-_peeri-0017,2008 - peering,There is procedure to perform short-term negotiation.
+146,D-2007-ertms-0096,2007-ertms,The ETCS trainborne equipment calculates the static train speed profile on the basis of infrastructure data and train data. M
+147,D-2007-ertms-0009,2007-ertms,"The driver shall acknowledge the level transitions, if requested from trackside. If the driver does not acknowledge after the transition the brake shall be applied. If the driver acknowledges afterwards, the brake can be released M"
+148,D-0000_-_gamma-0004,0000 - gamma j,USB interface and divers are provided by Yoggie Corporation.
+149,D-2007-ertms-0138,2007-ertms,The train trip function 4.6.12 shall be suppressed on the tandem traction unit. M
+150,D-2008_-_keepa-0024,2008 - keepass,"If a key file is required to unlock the database, the database doesn’t open unless the key file is present"
+151,D-2007-eirene_-0043,2007-eirene_fun_7-2,The group of users who may access the facilities of the EIRENE network shall be limited.
+152,D-2007-ertms-0087,2007-ertms,The ceiling speed level for the movement authority shall be defined as data National Value. M
+153,D-0000_-_cctns-0030,0000 - cctns,"The System user interface must be suitable for users with special needs; that is, compatible with specialist software that may be used and with appropriate interface guidelines"
+154,D-2007-eirene_-0280,2007-eirene_fun_7-2,A driver safety device (DSD) interface should be provided in traction units that are equipped with a DSD in order to support the transmission of a DSD alarm.
+155,D-0000_-_gamma-0023,0000 - gamma j,The system shall encrypt all customer data in database.
+156,D-2007-eirene_-0127,2007-eirene_fun_7-2,"Once the Railway emergency call is connected and the audible indication is finished, an indication shall be provided to the driver as a reminder of the need to use the Push- To-Talk button on the handset if he wants to speak."
+157,D-0000_-_gamma-0005,0000 - gamma j,Must use a SQL based database. SQL standard is the most widely used database format. Restricting to SQL allows easy of use and compatibility for Web Store.
+158,D-2007-ertms-0104,2007-ertms,"The release speed shall be calculated on board, based on either: safety distance and overlap accuracy of odometry deceleration performance of the train, etc or given from the trackside. The release speed given from the trackside shall take priority over the release speed calculated on board. M"
+159,D-2008_-_keepa-0013,2008 - keepass,REQ-13: Password field and repeat password field must be identical
+160,D-2007-eirene_-0512,2007-eirene_fun_7-2,A standard data interface between the mobile and the application module shall be provided.
+161,D-2007-eirene_-0035,2007-eirene_fun_7-2,The priority scheme for calls described in section 10.2 is also valid for train control applications.
+162,D-2007-ertms-0031,2007-ertms,Entering or overwriting data manually by the driver shall be possible but only when stationary. M
+163,D-0000_-_gamma-0048,0000 - gamma j,The system should be able to create test environment of weborder system.
+164,D-2007-ertms-0140,2007-ertms,It shall be possible to drive the train backwards in a supervised way (speed and distance) according to information received from trackside M
+165,D-2007-eirene_-0336,2007-eirene_fun_7-2,Four buttons should be provided for designated stored numbers. These buttons need not be dedicated buttons. (This facility is required to allow calls to specified users to be initiated quickly.)
+166,D-2007-eirene_-0324,2007-eirene_fun_7-2,The full environmental and physical specification of the General purpose radio is intended to be as close as possible to that of a Commercial-Off-The-Shelf (COTS) mobile whilst adhering to the specifications provided in section 4.3 and this section. Physical conditions
+167,D-2007-eirene_-0285,2007-eirene_fun_7-2,Additional information may also be provided if available from external systems.
+168,D-2007-eirene_-0284,2007-eirene_fun_7-2,DSD alarm information shall be transmitted to the primary controller.
+169,D-0000_-_cctns-0088,0000 - cctns,"The System must be able to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases in the system. In this context, performing a search means returning a result list. It does not include retrieving the records themselves."
+170,D-0000_-_cctns-0111,0000 - cctns,The system should run on multiple browsers
+171,D-2007-eirene_-0074,2007-eirene_fun_7-2,Mobiles configured for reception of railway emergency calls entering into a call area where a railway emergency call is ongoing shall automatically join this call.
+172,D-2008_-_keepa-0029,2008 - keepass,REQ-30: File formats only specify a low-level layout of stored data
+173,D-2007-eirene_-0452,2007-eirene_fun_7-2,"In order to provide interoperability, Cab radios will be members of a number of standard groups: Railway emergency call; all train drivers; shunting team; trackside worker."
+174,D-2007-eirene_-0230,2007-eirene_fun_7-2,"Where an on-train bus is connected to the Cab radio, deregistration of functional numbers can be performed on an individual basis and also by the train driver, by one action for all users (including the driver), at the end of the journey when the train number is no longer associated with the train. Register and deregister stock number (engine/coach number)"
+175,D-2007-ertms-0160,2007-ertms,The emergency brake shall be applied until the traction unit is stationary. M
+176,D-0000_-_cctns-0015,0000 - cctns,The System should be able to provide reports for actions on cases organised by workstation and (where technically appropriate) by network address.
+177,D-2008_-_peeri-0007,2008 - peering,Malicious requests are detected and rejected.
+178,D-0000_-_cctns-0021,0000 - cctns,"The System must allow changes to security attributes for groups or users (such as access rights, security level, privileges, password allocation and management) to be made only by super-user."
+179,D-2007-eirene_-0557,2007-eirene_fun_7-2,Operational radios used for shunting shall enable the link assurance signal to be activated and de-activated by the shunting group member.
+180,D-0000_-_cctns-0029,0000 - cctns,"The interfaces must be made customizable or user-configurable to the extent possible. (e.g., the displayed columns in the table, move, resize, modify the appearance). Such configurations must be saved in the user profile."
+181,D-0000_-_cctns-0055,0000 - cctns,"Supporting text skimming: Fast skimming of text should be supported by the provision of clear links, bulleted lists, highlighted keywords, logical headings, and short phrases and sentences."
+182,D-2007-ertms-0061,2007-ertms,"The train shall leave Partial Supervision when the trainborne equipment is not operative any longer, when Shunting is selected or when Full Supervision is available. M"
+183,D-2007-eirene_-0142,2007-eirene_fun_7-2,"If the call fails in the lead traction vehicle, the lead driver will be responsible for re- establishing the call. If the call fails to any other cab, the driver in that cab will call the lead cab and request re-establishment of the call."
+184,D-2007-eirene_-0116,2007-eirene_fun_7-2,A driver shall be able to initiate the establishment of a call to other drivers with a minimum of action (eg a single keystroke).
+185,D-2007-ertms-0019,2007-ertms,"If an ETCS equipped train passes a level transition to one or more levels for which it is not equipped, ETCS shall initiate a brake application. M"
+186,D-2007-ertms-0164,2007-ertms,The ETCS trainborne equipment shall transmit its own train identification to the RBC. M
+187,D-2007-eirene_-0049,2007-eirene_fun_7-2,It shall be possible for the user to re-join the call which is on hold at any time. Call waiting
+188,D-2008_-_keepa-0025,2008 - keepass,"If there is a composite key, both master password and key file are required"
+189,D-2008_-_keepa-0001,2008 - keepass,REQ-1: KeePass must be downloaded and installed
+190,D-2007-eirene_-0333,2007-eirene_fun_7-2,The on/off control should be designed to prevent accidental activation/deactivation.
+191,D-2008_-_peeri-0001,2008 - peering,The format for service information description is defined
+192,D-2007-eirene_-0287,2007-eirene_fun_7-2,On-train mobiles shall provide a standardised interface to ERTMS/ETCS.
+193,D-0000_-_cctns-0083,0000 - cctns,The planned downtime for the System must not exceed <xx> hours per <rolling three month period>. The System is considered to be down if any user is unable to perform any normal System function and if this failure is attributed to any component of the System other than the workstation.
+194,D-0000_-_cctns-0107,0000 - cctns,The system should support multi-tier authentication where required
+195,D-0000_-_gamma-0009,0000 - gamma j,"Assume the delivery of development, test and evaluate samples of the USB system from Yoggie."
+196,D-2007-eirene_-0407,2007-eirene_fun_7-2,A dedicated Push-To-Talk button shall be provided.
+197,D-2007-ertms-0068,2007-ertms,"When the ETCS trainborne equipment is isolated, the system shall not show any ETCS information other than the fact that the system is isolated. M"
+198,D-0000_-_cctns-0098,0000 - cctns,The system should be built on a common User Access and Authentication Service to ensure Single-Sign on for the end-user
+199,D-0000_-_cctns-0013,0000 - cctns,"The System must be able to capture and store violations (i.e. A user’s attempts to access a case to which he is denied access), and (where violations can validly be attempted) attempted violations, of access control mechanisms."
+200,D-0000_-_gamma-0034,0000 - gamma j,The system shall be easy to learn
+201,D-2007-eirene_-0570,2007-eirene_fun_7-2,The shunting leader shall then be able to allow the external user to join the shunting communication.
+202,D-2007-ertms-0063,2007-ertms,Transferring to Full Supervision shall occur automatically when a movement authority and all other necessary information is received through track-to-train transmission. M
+203,D-2007-ertms-0134,2007-ertms,It shall be possible to use multiple traction units without isolating the ETCS trainborne equipment on traction unit(s) with an in-operative cab. M
+204,D-2007-eirene_-0485,2007-eirene_fun_7-2,The registration procedure shall provide a means to prevent mis-allocation of functional numbers during registration.
+205,D-2007-eirene_-0437,2007-eirene_fun_7-2,"For certain functions, standardised telephone numbers shall be implemented. These functions are: - Route call to most appropriate ERTMS/ETCS RBC; - Railway emergency call; - Route call to primary controller; - Route call to secondary controller; - Route call to power supply controller; - Public emergency call."
+206,D-0000_-_gamma-0008,0000 - gamma j,"Shall deliver Operations and Maintenance manual, Users Guide book, and Installation Instructions for the Administrator."
+207,D-2007-eirene_-0345,2007-eirene_fun_7-2,The following functions will be provided: Call related functions call authorised users; call controller; send Railway emergency calls; receive Railway emergency calls; receive incoming calls; group and broadcast calls; terminate calls; shunting mode communications; enter/leave direct mode; Other functions switch radio on/off; select language; select mobile radio network; adjust loudspeaker volume; register and deregister functional number; store/retrieve numbers and their details; computer interface.
+208,D-2007-eirene_-0191,2007-eirene_fun_7-2,Switch off shall be soft so that the Cab radio completes the following housekeeping functions before actually switching off: controlled termination of a current call; deregister train number (where applicable); store required data; confirmation of Railway emergency calls (see section 13).
+209,D-0000_-_gamma-0025,0000 - gamma j,The system shall detect consecutive failed login attempts.
+210,D-2007-eirene_-0488,2007-eirene_fun_7-2,The functional addressing scheme shall be supported by a straightforward procedure for deregistration of functional numbers. This procedure shall be carried out by the user at the end of the functional role.
+211,D-2007-ertms-0085,2007-ertms,"Together with the movement authority, the on board shall be able to receive one or more time-out(s) for certain sections of the movement authority, and shorten the movement authority accordingly when a time out expires. M"
+212,D-0000_-_gamma-0040,0000 - gamma j,The system shall be easily updatable for fixes and patches.
+213,D-0000_-_cctns-0104,0000 - cctns,The system should be designed for access through browser-based systems and must impose minimal requirements on the client device
+214,D-2007-ertms-0017,2007-ertms,During the transition period between two operational states (including two different national operations) the supervision provided shall at least ensure the same protection provided by the least restrictive state. M
+215,D-2007-eirene_-0303,2007-eirene_fun_7-2,"In a group call, a visual indication shall be provided to remind the user of the need to use the PTT function."
+216,D-0000_-_cctns-0103,0000 - cctns,The system should adopt standardized formats and common metadata elements
+217,D-2008_-_keepa-0005,2008 - keepass,There must be entries in the database in order for them to be printed
+218,D-2007-ertms-0191,2007-ertms,The distance supervised can be extended from the trackside. M
+219,D-2008_-_keepa-0010,2008 - keepass,In order to find something in a group a word must be placed in the find field
+220,D-0000_-_cctns-0085,0000 - cctns,The number of incidents of unplanned downtime for the System must not exceed <x> per <rolling three month period>.
+221,D-2007-eirene_-0105,2007-eirene_fun_7-2,5.2.2v The use of Push-To-Talk for all types of communications is acceptable if needed for ergonomic reasons or to avoid the noise of the cab being transmitted to the other party.
+222,D-0000_-_gamma-0020,0000 - gamma j,The system will do periodic backups through a live internet connection.
+223,D-2007-eirene_-0567,2007-eirene_fun_7-2,"A shunting group shall be able to consist of the following mobile members: the shunting leader; the shunting driver, who may remain fixed (ie in a shunting area) or may change one or more times during a working period (ie passenger or freight stations); up to three shunting team members."
+224,D-2007-ertms-0178,2007-ertms,Information shall be shown on the DMI M
+225,D-2007-eirene_-0541,2007-eirene_fun_7-2,The confirmation shall be generated automatically without input from the user.
+226,D-2008_-_keepa-0012,2008 - keepass,When the password field is completed the repeat password field must be completed
+227,D-2008_-_keepa-0021,2008 - keepass,Only one database file is allowed in command line options
+228,D-2007-eirene_-0499,2007-eirene_fun_7-2,"When operating with location dependent addressing, no manual action shall be required to update the system when a mobile moves between locations."
+229,D-2008_-_keepa-0003,2008 - keepass,Folder selected must be of type the database can read and that is “name”.kdb
+230,D-2007-eirene_-0140,2007-eirene_fun_7-2,"In each cab, the call shall be connected to the loudspeaker whilst the handset is on- hook."
+231,D-2007-eirene_-0222,2007-eirene_fun_7-2,5.2.3.28ii Data entry may be from either system depending on the operating procedures agreed between the train operator and the railway infrastructure operator.
+232,D-2007-eirene_-0579,2007-eirene_fun_7-2,"Operating flexibility: it shall be possible to modify a shunting groups composition during a working period. The process for acceptance (or rejection) of new members, and for admission and removal of temporary members, shall be simple."
+233,D-2007-eirene_-0372,2007-eirene_fun_7-2,"If shunting mode is implemented, the functionality to enter or leave shunting mode shall not be available whilst there are on-going calls involving the Operational radio."
+234,D-2007-ertms-0173,2007-ertms,The onboard equipment shall display plain text messages as received. M
+235,D-2007-eirene_-0555,2007-eirene_fun_7-2,It shall be possible for all mobile members of the shunting group (except the driver) to transmit a link assurance signal.
+236,D-0000_-_cctns-0093,0000 - cctns,The system should be designed in manner that operational data is not lost in case of any failure of equipment or communication network.
+237,D-0000_-_gamma-0021,0000 - gamma j,The system shall validate credit cards against fraud.
+238,D-2007-eirene_-0071,2007-eirene_fun_7-2,"Any group or broadcast calls initiated in a given location shall be broadcast over an associated area based on the location of the call originator, and also to any fixed network numbers associated with the originating location."
+239,D-0000_-_gamma-0015,0000 - gamma j,The system shall be able to search for a specified product in less than 1 second.
+240,D-2007-ertms-0197,2007-ertms,"If there are failures of the trainborne equipment which compromise the safety of train supervision, the ETCS trainborne equipment shall immediately command the brake and bring the train to a stop. M"
+241,D-0000_-_cctns-0113,0000 - cctns,The system should ensure secure transmission of data over the network and utilize SSL and 2-way digital signatures
+242,D-2007-ertms-0152,2007-ertms,When a train has received an emergency stop ETCS shall command the emergency brake. M
+243,D-2007-eirene_-0242,2007-eirene_fun_7-2,"For data applications, calls shall be possible even if the driver MMI is switched off."
+244,D-2007-ertms-0133,2007-ertms,"The following information shall be recorded: any transition of Level and of operational status the driver’s confirmation of transition to shunting train supervision data and information received from national train control systems actual speed full service brake intervention emergency brake intervention applying the train trip function selection of the override control override of the route suitability function isolation of on board ETCS equipmen data entered, recieved or indicated to the driver M"
+245,D-0000_-_cctns-0001,0000 - cctns,The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.
+246,D-2008_-_keepa-0002,2008 - keepass,REQ-2: Master Password has no limits in length. A whole sentence can be used with more than 100 characters.
+247,D-2007-eirene_-0247,2007-eirene_fun_7-2,An outgoing call request of higher priority than an established call shall take precedence over the established call.
+248,D-0000_-_gamma-0006,0000 - gamma j,"Compatibility is only tested and verified for Microsoft Internet Explorer version 6 and 7, Netscape Communicator Version 4 and 5. Other versions may not be 100% compatible. Also other browsers such as Mozilla or Firefox may not be 100% compatible."
+249,D-2007-eirene_-0406,2007-eirene_fun_7-2,"If shunting mode is implemented, the link assurance button shall be designed to avoid accidental use."
+250,D-0000_-_cctns-0102,0000 - cctns,The system should be extensible to provide access to the interfaces through PDA’s and mobile data terminals
+251,D-2008_-_peeri-0020,2008 - peering,Functional policies are identified and deployed.
+252,D-2007-eirene_-0432,2007-eirene_fun_7-2,Every controller number shall be based on an association of: controller location; controller identifier.
+253,D-2007-eirene_-0095,2007-eirene_fun_7-2,EIRENE mobiles will generate electromagnetic emissions. It is the responsibility of national railways operating EIRENE networks to ensure that EIRENE equipment does not interfere with the normal operation of any on-train or ground-based systems.
+254,D-2007-eirene_-0059,2007-eirene_fun_7-2,The land-based part of the system shall provide communications for mobiles when stationary and when travelling at speeds up to the maximum allowable line speed or
+255,D-0000_-_cctns-0005,0000 - cctns,The solution should enable the user to track the submitted defect or enhancement request.
+256,D-0000_-_cctns-0115,0000 - cctns,"The system should ensure high scalability and performance through: Use of cache for storing frequent data Use of AJAX based technology to improve user experience. Aggressive page loading to be considered based on the screen and estimate usage pattern Leverage Asynchronous HTTP socket capabilities of web server for scalability and performance Host all the static content (documents, images) on the web server The search results should be fetched from the database in batches of 10 or 20 maximum as configured within the application Display of records on the screen in batches/paged manner The search should fetch only the fields that need to be displayed to the user. Only when the user clicks on a particular record to view its further details should a query be fired to fetch the additional details for this particular record only A hierarchical cache should be configured and used for caching of results of most frequently used searches Database Indexes should be applied on the key columns used for searching"
+257,D-2008_-_keepa-0020,2008 - keepass,"If two auto-types are referred in one note field, only the first is used"
+258,D-2007-ertms-0196,2007-ertms,"In the event of a Transmission Failure the following reactions, shall be capable of being applied in accordance with a National Value: Option 1. The ETCS trainborne equipment shall immediately command the emergency brake. The failure shall be shown on the DMI. Option 2. The ETCS trainborne equipment shall immediately command the full service brake. The failure shall be shown on the DMI. Option 3. The train may proceed unrestricted to the end of its movement authority. The indication on the DMI shall remain, and the driver shall be informed about the loss of transmission. M"
+259,D-2007-eirene_-0525,2007-eirene_fun_7-2,"If the system is not able to connect the call, the system shall automatically keep trying to connect the call for 30 seconds."
+260,D-0000_-_gamma-0045,0000 - gamma j,The system should be able to run under debug mode.
+261,D-2007-ertms-0043,2007-ertms,"An ETCS equipped traction unit shall be capable of being moved in Shunting without train data, track data or movement authority. M"
+262,D-2008_-_peeri-0015,2008 - peering,Malicious requests are identified and acted upon.
+263,D-2007-eirene_-0371,2007-eirene_fun_7-2,"If shunting mode is implemented, a means to enter and leave shunting mode shall be provided."
+264,D-2008_-_peeri-0016,2008 - peering,There are existing policies for long-term peering arrangement.
+265,D-2007-eirene_-0260,2007-eirene_fun_7-2,"Requirements on electromagnetic emissions for the Cab radio are to be more stringent than those defined for other radio types due to close proximity to other train-mounted control and protection equipment, and higher transmission power."
+266,D-2007-eirene_-0543,2007-eirene_fun_7-2,"If the radio loses contact with the network, the mechanism shall commence as soon as possible on regaining communications, for up to a maximum of 5 minutes without achieving contact."
+267,D-2007-eirene_-0057,2007-eirene_fun_7-2,The level of coverage should be at least 95% of the time over 95% of the designated coverage area for a radio installed in a vehicle with an external antenna.
+268,D-2007-ertms-0168,2007-ertms,The ETCS trainborne equipment shall indicate on the DMI the information regarding pantograph and power supply. M
+269,D-2008_-_peeri-0019,2008 - peering,Primary CDN has already acquired sufficient external resources.
+270,D-0000_-_cctns-0031,0000 - cctns,The System must provide End User and Administrator functions which are easy to use and intuitive throughout.
+271,D-2007-eirene_-0205,2007-eirene_fun_7-2,"Using a simple MMI action, it shall be possible for the driver to view a prioritised list of all authorised mobile radio networks (see section 10.5)."
+272,D-0000_-_gamma-0046,0000 - gamma j,The system should be able to run test credit card transactions.
+273,D-2007-ertms-0110,2007-ertms,"On lines fitted with RBC, the ETCS trainborne equipment shall be able to transmit the location of the entire train to the RBC. M"
+274,D-2007-eirene_-0085,2007-eirene_fun_7-2,The following EIRENE features are to be supported for each type of mobile radio: Cab radio General purpose Operational radio radio Functional addressing (section 11) M M M Location dependent addressing M O O (section 11) Direct mode (section 15) O N/A O Shunting mode (section 14) M N/A O Multiple driver communications within the M N/A N/A same train (section 5) Railway emergency calls M O M (section 13) Table 4-4: EIRENE specific features to be supported
+275,D-0000_-_cctns-0022,0000 - cctns,"If a user requests access to, or searches for, a case which he does not have the right to access, the System must provide one of the following responses (selectable at configuration time): display title and metadata; display the existence of a case but not its title or other metadata; do not display any case information or indicate its existence in any way. These options are presented in order of increasing security. Note that the requirement in the third option (i.e. the most stringent) implies that the System must not include such cases in any count of search results; this level of security is normally appropriate for cases dealing with matters such as national security."
+276,D-0000_-_cctns-0100,0000 - cctns,The system should be developed to be deployed in a 3-tier datacenter architecture
+277,D-2007-eirene_-0224,2007-eirene_fun_7-2,A means to override the currently registered train number shall be provided to the newly registering driver.
+278,D-0000_-_cctns-0106,0000 - cctns,The system should have capability to support public access to a subset of data and functionality
+279,D-2008_-_keepa-0030,2008 - keepass,Global hot key cannot be changed
+280,D-2008_-_peeri-0018,2008 - peering,Negotiation is established between selected CDN peers.
+281,D-2007-eirene_-0181,2007-eirene_fun_7-2,The driver shall be able to terminate communications (voice or data) by selecting another call. Forward calls to driver handheld
+282,D-2008_-_keepa-0008,2008 - keepass,A subgroup cannot be created when no group is selected
+283,D-2008_-_keepa-0015,2008 - keepass,ìWhen the password field is changed the repeat password field must be Changed and be identical with password field
+284,D-2007-ertms-0034,2007-ertms,Current train data shall be stored (except at transition to shunting) in the ETCS equipment until the traction unit is not operative. M
+285,D-0000_-_cctns-0027,0000 - cctns,"The System must employ a single set of user interface rules, or a small number of sets to provide a familiar and common look and feel for the application."
+286,D-2008_-_peeri-0009,2008 - peering,Both anticipated and unanticipated user requests (traffic) are considered.
+287,D-2007-eirene_-0267,2007-eirene_fun_7-2,The driver shall be able to adjust the contrast of the display.
+288,D-0000_-_cctns-0101,0000 - cctns,The system should be designed to have a n-tier architecture with the presentation logic separated from the business logic that is again separated from the data-access logic
+289,D-2008_-_keepa-0019,2008 - keepass,Sequence’s length must not be more than a line (59 characters)
+290,D-0000_-_cctns-0109,0000 - cctns,The system should support secure virtual private network connections
+291,D-2007-eirene_-0268,2007-eirene_fun_7-2,The emergency call button shall be red and shall be protected against accidental use.
+292,D-2007-eirene_-0240,2007-eirene_fun_7-2,The result of the tests shall be displayed in a similar format to the self-test when MMI is powered on.
+293,D-2007-eirene_-0225,2007-eirene_fun_7-2,The driver of the previously registered train shall be informed (by audible and visual indications) that his train number has been overridden by another driver.
+294,D-2007-eirene_-0077,2007-eirene_fun_7-2,"All EIRENE mobiles are specified with a common level of basic services, facilities and features. This section of the specification gives details of these core requirements, while sections 5, 6 and 7 detail requirements specific to each of the radio types."
+295,D-2007-ertms-0049,2007-ertms,"Before authomatic transition to Shunting, ETCS shall request confirmation from the driver. M"
+296,D-2008_-_peeri-0004,2008 - peering,"Resource provisioning, delegation and reservation policies are in place"
+297,D-2007-ertms-0114,2007-ertms,The indication provided shall enable the driver to drive at the permitted speed without receiving a warning and without intervention of ETCS. M
+298,D-2007-eirene_-0180,2007-eirene_fun_7-2,"For voice communications, if the driver picks up the handset, the radio shall allow him to join the communication."
+299,D-2007-ertms-0016,2007-ertms,"In case the transition has to be acknowledged and the driver fails to acknowledge as required, the ETCS shall initiate a brake application M"
+300,D-2007-eirene_-0006,2007-eirene_fun_7-2,The system shall allow a user to make public emergency point-to-point voice calls.
